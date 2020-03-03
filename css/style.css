@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Helvetica;
+    src: url(../fonts/HelveticaNeue-Thin/HelveticaNeueLTStd-ThCn.otf);
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+body {
+    background-image: url(../images/Layer_30.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+main {
+    background-color: #19263daf;
+    text-align: center;
+    padding-top: 99px;
+    width: 100%;
+}
+
+.mainText {
+    font-family: Helvetica;
+    color: #e76122;
+    font-size: 48px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.subText {
+    color: #ffffff;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+    opacity: 0.9;
+}
+
+.linksCont {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 22px;
+}
+
+.linksImgs {
+    width: 16%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.linkImg {
+    width: 41px;
+    height: 41px;
+}
+
+.msgText {
+    width: auto;
+    margin-top: 29px;
+    color: #e76122;
+    font-family: "Helvetica";
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.lorem {
+    width: 59%;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: italic;
+    line-height: 24px;
+    margin: 0 auto;
+    margin-top: 29px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 370px;
+    height: 45px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    color: #777777;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 42px;
+    padding-left: 15px;
+}
+
+.formCont {
+    padding-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+textarea {
+    width: 370px;
+    height: 158px;
+    margin-left: 35px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    resize: none;
+    color: #777777;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 42px;
+    padding: 3px 0 0 14px;
+}
+
+button {
+    width: 170px;
+    height: 45px;
+    background-color: #5dbdb1;
+    border-radius: 6px;
+    border: 0px;
+    border-color: #5dbdb1;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-top: 31px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #319185;
+}
+
+.divide {
+    width: 68%;
+    height: 2px;
+    margin-top: 115px;
+}
+
+.bottomText {
+    color: #ffffff;
+    font-family: 'Open Sans';
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    opacity: 0.9;
+    margin-top: 30px;
+}
+
+.arrow {
+    margin: 19px 0 0 0;
+}
+
+@media only screen and (max-width: 830px) {
+    .formCont {
+        flex-direction: column;
+    }
+
+    form {
+        margin-bottom: 30px;
+    }
+
+    input {
+        margin: 0 auto;
+        margin-bottom: 8px;
+    }
+
+    textarea {
+        margin: 0 auto;
+    }
+
+    .mainText {
+        font-size: 40px;
+    }
+}
